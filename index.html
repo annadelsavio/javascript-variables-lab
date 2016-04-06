@@ -1,0 +1,47 @@
+ <!doctype html>
+<html>
+  <head>
+    <title>Registration calculator</title>
+
+     <!-- Compiled and minified materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+
+    <style>
+      span {
+        text-decoration: underline;
+      }
+
+      h3 {
+        padding-bottom: 25px;
+        border-bottom: solid black 5px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+    </style>
+
+    <!-- jQuery & app js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>
+        Hi, I'm <span id="full-name"></span>.
+      </h2>
+      <h3>
+        I go to The New School and will graduate in <span id="years-until-graduation"></span> year(s).
+      </h3>
+
+      <h4>How New Schoolers fare</h4>
+      <p>
+        The median income for students 10 years after being in school was $<span id="median"></span> in 2011.
+        It is <span id="median-boolean"></span> that this is value is greater than
+        NYC's median income during that time of $<span id="ny-median"></span>,
+        which is a difference of $<span id="median-difference"></span>.
+      <p>
+    </div>
+  </body>
+</html>
