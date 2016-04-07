@@ -10,19 +10,20 @@ $(function() {
   // 7) Create a variable called greaterThanMedian that returns a boolean value for whether the new school median
   //     is greater than the NYC median income
   // 8) Create a variable called medianDifference that subtracts new school median income from nyc
+  // 9) Check out your mad libs in the browser!
+  // 10) Change some of the variables, reload your index page, and watch the information change
 
-
-
-
-
-
-
-
-
+  var firstName = "Alexandra";
+  var lastName = "Ackerman";
+  var fullName = firstName + " " + lastName;
+  var grad = 2019;
+  var current = 2016;
+  var yearsUntilGraduation = grad - current;
 
   var newSchoolMedian = 39400;
   var nycMedian = 49461;
-
+  var greaterThanMedian  = newSchoolMedian > nycMedian;
+  var medianDifference = nycMedian - newSchoolMedian;
 
   // All of your code needs to go above this!
   $("#full-name").text(fullName);
