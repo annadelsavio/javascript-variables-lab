@@ -21,7 +21,7 @@ $(function() {
   // All of your code needs to go above this!
   $("#full-name").text(fullName);
 
-  // 9) Replace #uears-until-graduation text with yearsUntilGraduation number
+  // 9) Replace #years-until-graduation text with yearsUntilGraduation number
 
   $("#median").text(newSchoolMedian);
   $("#ny-median").text(nycMedian);
